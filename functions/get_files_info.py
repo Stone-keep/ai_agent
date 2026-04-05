@@ -1,8 +1,8 @@
 import os
 
 def get_files_info(working_directory, directory="."):
+    
     try:
-
 
         working_directory_abspath = os.path.abspath(working_directory)
         target_directory = os.path.normpath(os.path.join(working_directory_abspath, directory))
